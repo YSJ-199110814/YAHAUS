@@ -1,0 +1,191 @@
+
+body{
+    display:flex;
+    flex-direction: column;
+    padding-left:20px;
+    padding-right:20px;
+    height:100%;
+    margin:0px;
+    font-family: sans-serif;
+    width:70%;
+    margin: auto;
+}
+
+header h1{
+    text-align: center;
+    margin-bottom: 0px;
+
+}
+
+.accountnav{
+    display: inline-block;
+    text-align: left;
+    position: absolute;
+    right:15%;
+    top:-5px;
+    list-style: none;
+}
+
+.accountnav ul{
+    list-style: none;
+    font-size: 11pt;
+    padding: 0px;
+}
+
+.accountnav span{
+    font-weight: bold;
+    color: darkslategray;
+    font-size: 8pt;
+}
+
+.accountnav a{
+    color: darkblue;
+}
+
+nav.top ul{
+    background-color: whitesmoke; 
+    border-style: solid;
+    border-width: thin;
+    border-color: darkgray;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    line-height: 40px;
+
+}
+
+nav.top li{
+    width:24%;
+    text-align: center;
+    border-style: solid;
+    border-width: thin;
+    font-weight: bold;
+    letter-spacing: 2px
+}
+
+nav.top a{
+    background-color: darkslategray;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    
+}
+
+
+main{
+    background-color: whitesmoke;
+    border-style: solid;
+    border-width: thin;
+    border-color: darkgray;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 100%;
+    margin-bottom: 100px;
+}
+
+
+nav.sub ul{
+    padding-left: 0px;
+    margin:0px;
+    margin-bottom: 10px;
+    height:25px;
+    display:flex;
+    border-bottom:solid;
+    border-bottom-color: dimgrey;
+    border-width: thin;
+
+}
+
+nav.sub li{
+    display: inline;
+    list-style: none;
+    background-color: silver;
+    border-style: solid;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-width: thin;
+    border-right-width:medium;
+    border-right-style:double;
+    padding: 3px;
+}
+
+nav.sub a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.namesearch{
+    width:300px;
+}
+
+.loginbox{
+    width:30%;
+    margin: auto;
+    padding: 20px;
+}
+
+.logindetails{
+    width: 100%;
+}
+
+
+table.tabular{
+    border-collapse: collapse;
+    margin: auto;
+}
+
+.tabular td, .tabular th{
+    border: 1px solid;
+    /* white-space: nowrap; */
+    max-width: 500px;
+    min-width: 100px;
+}
+
+div.report{
+    overflow-y: scroll;
+}
+
+div.error{
+    margin-top: -15px;
+    margin-bottom: 10px;
+    padding: 0;
+    color: #cc0000;
+    font-weight: bold;
+}
+
+
+div.maturation{
+    margin: 20px;
+}
+
+div.maturation input{
+    margin:10px;
+}
+
+.ast {
+    color: darkred;
+}
+
+table.update-display td{
+    text-align: right;
+}
+
+table.update-display select{
+    width:100%;
+}
+
+.lookup{
+    width:200px;
+}
+
+.update{
+    font-size: 16px;
+}

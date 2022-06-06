@@ -1,0 +1,6 @@
+exported database: yahaus.sql
+
+index: localhost/assignment
+
+username: admin
+password: admin
